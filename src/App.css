@@ -9,8 +9,8 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(7, 7, 7) 0%,
+    rgb(33, 32, 34) 100%
   );
 }
 .todo-app {
@@ -19,7 +19,8 @@ body {
   justify-content: start;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
+  background-image: url("C:\Users\HB\Desktop\préparation_entretien\mon-app\public\todoImage.jpg");
+  /* background: red; */
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
@@ -28,7 +29,7 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: black;
   font-size: 24px;
 }
 
@@ -48,11 +49,11 @@ h1 {
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: black;
 }
 
 .todo-input::placeholder {
-  color: #e2e2e2;
+  color: black;
 }
 
 .todo-button {
